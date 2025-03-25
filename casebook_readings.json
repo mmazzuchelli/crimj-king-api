@@ -1,0 +1,55 @@
+{
+  "title": "Criminal Law – Casebook Readings (Spring 2025)",
+  "readings": [
+    {
+      "classNumber": 1,
+      "classDate": "2025-01-09",
+      "topic": "Introduction to Criminal Process",
+      "casebookPages": "CB 3–24",
+      "type": "casebookReading",
+      "text": "This reading introduces the basic structure and flow of the criminal justice system from investigation to trial. It highlights the burden of proof (beyond a reasonable doubt), the presumption of innocence, and the adversarial process. The key case is Owens v. State, used to illustrate how juries evaluate circumstantial evidence, make inferences, and reason about guilt. The chapter emphasizes how criminal law operates as a procedural and substantive framework to determine culpability."
+    },
+    {
+      "classNumber": 2,
+      "classDate": "2025-01-13",
+      "topic": "Theories of Punishment",
+      "casebookPages": "CB 25–57",
+      "type": "casebookReading",
+      "text": "This chapter explores retributive and utilitarian theories of punishment. It explains deterrence, incapacitation, rehabilitation, and retribution, as well as critiques of each. It discusses proportionality and how punishment must be justified morally and legally. Includes readings on sentencing guidelines, critiques of mass incarceration, and how punishment reflects societal values."
+    },
+    {
+      "classNumber": 3,
+      "classDate": "2025-01-16",
+      "topic": "Death Penalty and Eighth Amendment",
+      "casebookPages": "CB 59–92",
+      "type": "casebookReading",
+      "text": "This reading focuses on the death penalty and its constitutional limits under the Eighth Amendment. It reviews Furman v. Georgia (invalidating arbitrary sentencing), Gregg v. Georgia (reinstating capital punishment under guided discretion), and discusses evolving standards of decency, mitigating factors, racial disparities, and moral arguments surrounding execution. The reading includes critiques from abolitionist and retentionist perspectives and explores alternative sanctions like life without parole."
+    },
+    {
+      "classNumber": 4,
+      "classDate": "2025-01-21",
+      "topic": "Legality and Statutory Interpretation",
+      "casebookPages": "CB 93–122",
+      "type": "casebookReading",
+      "text": "This chapter explains the principle of legality — that there is no crime without law — and how courts interpret criminal statutes. Topics include fair notice, ex post facto laws, vagueness doctrine, and the role of legislative intent. Cases like Keeler v. Superior Court and Desertrain v. City of Los Angeles demonstrate how courts weigh statutory text, legislative purpose, and constitutional concerns when defining criminal conduct."
+    },
+    {
+      "classNumber": 5,
+      "classDate": "2025-01-23",
+      "topic": "Act Requirement (Actus Reus)",
+      "casebookPages": "CB 123–152",
+      "type": "casebookReading",
+      "text": "This reading focuses on the act requirement in criminal law, covering voluntary acts, omissions, and the role of causation. Key doctrines include the necessity of a voluntary act, legal duty to act (e.g. parent-child, contractual, statutory), and when omissions become criminal. Jones v. United States is a foundational case for analyzing when failure to act creates liability. The chapter also introduces the Model Penal Code's approach to actus reus and the distinction between act, omission, and status."
+    },
+    {
+      "classNumber": 6,
+      "classDate": "2025-01-27",
+      "topic": "Mental States (Mens Rea)",
+      "casebookPages": "CB 152–187",
+      "type": "casebookReading",
+      "text": "This reading covers mens rea: the mental states required for criminal liability. It explores purpose, knowledge, recklessness, and negligence, especially as defined in MPC § 2.02. The chapter compares common law and MPC approaches, and how courts interpret ambiguous mental state requirements in statutes. Includes U.S. v. Jewell (willful blindness), and discussion of specific vs. general intent. Examines how mental states apply to conduct, results, and attendant circumstances."
+    }
+  ]
+}
+
+  
