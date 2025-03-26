@@ -26,6 +26,10 @@ transcript_chunks = [chunk.strip() for chunk in transcript_chunks if chunk.strip
 model = SentenceTransformer('all-MiniLM-L6-v2')
 transcript_embeddings = model.encode(transcript_chunks, convert_to_tensor=True)
 
+@app.get("/")
+def read_root():
+    return {"message": "Transcript Search API is up and running."}
+
 @app.get("/search_transcripts")
 def search_transcripts(query: str = Query(...), top_k: int = 3):
     query_embedding = model.encode(query, convert_to_tensor=True)
