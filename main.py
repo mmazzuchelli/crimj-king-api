@@ -7,8 +7,18 @@ from sentence_transformers import SentenceTransformer, util
 app = FastAPI()
 
 # Load and chunk markdown transcript file
-with open("criminal_law_class_transcripts.md", "r", encoding="utf-8") as f:
-    transcript_text = f.read()
+import os
+
+print("📂 Current working directory:", os.getcwd())
+print("📄 Files in directory:", os.listdir())
+
+try:
+    with open("criminal_law_class_transcripts.md", "r", encoding="utf-8") as f:
+        transcript_text = f.read()
+    print("✅ Loaded transcript markdown file successfully.")
+except FileNotFoundError:
+    print("🚨 File not found: criminal_law_class_transcripts.md")
+    transcript_text = "## Class 0 – Placeholder\nThis is a fallback transcript used when the file is missing."
 
 transcript_chunks = transcript_text.split("\n# Class")  # Uses Markdown headers to split
 transcript_chunks = [chunk.strip() for chunk in transcript_chunks if chunk.strip()]
